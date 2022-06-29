@@ -13,7 +13,7 @@
 
 body {
   margin: 0 auto;
-  width: 640px;
+  width: 320px;
   background: #edf2f5;
 
   font-family: "Montserrat", sans-serif;
@@ -21,8 +21,8 @@ body {
 
 .page {
   margin: 0 auto;
-  width: 552px;
-  height: 1200px;
+  width: 276px;
+  height: 600px;
 }
 
 /* 1 headerSection  */
@@ -32,41 +32,41 @@ body {
   justify-content: space-between;
   align-items: center;
 
-  width: 552px;
-  height: 128px;
+  width: 276px;
+  height: 64px;
 }
 
 .logo {
-  width: 150px;
-  height: 52px;
+  width: 75px;
+  height: 26px;
 }
 
 .logoImg {
-  width: 204px;
+  width: 102px;
 
   position: relative;
-  top: -52px;
-  left: -30px;
+  top: -26px;
+  left: -15px;
 }
 
 .contact {
-  width: 274px;
-  height: 108px;
+  width: 137px;
+  height: 54px;
 
   text-align: center;
 }
 
 .time {
-  font-size: 14px;
+  font-size: 7px;
 }
 
 .tel {
-  margin: 12px 0 12px 0;
-  font-size: 28px;
+  margin: 6px 0 6px 0;
+  font-size: 14px;
 }
 
 .call {
-  font-size: 20px;
+  font-size: 10px;
   color: #12c868;
   text-decoration: underline dotted #12c868;
 }
@@ -76,11 +76,11 @@ body {
 }
 
 .mob-menu {
-  width: 40px;
+  width: 20px;
 }
 
 .material-symbols-outlined {
-  font-size: 40px;
+  font-size: 20px;
   cursor: pointer;
 }
 
@@ -102,12 +102,13 @@ body {
 
   list-style-type: none;
   text-transform: uppercase;
+  font-size: 10px;
 }
 
 /* 2 headerNav */
 
 .headerNav li {
-  margin: 20px;
+  margin: 10px;
 }
 
 .headerNav li a {
@@ -122,13 +123,14 @@ body {
   flex-direction: column;
   align-items: center;
 
-  padding-top: 30px;
+  padding-top: 15px;
 }
 
 .headText p {
-  margin: 10px 70px 10px 70px;
+  margin: 5px 28px 5px 28px;
   text-align: center;
-  line-height: 27px;
+  line-height: 13.5px;
+  font-size: 8.5px;
 }
 
 span {
@@ -140,7 +142,7 @@ span {
   justify-content: center;
   align-items: center;
 
-  height: 120px;
+  height: 60px;
 }
 
 .iconPdf {
@@ -149,21 +151,21 @@ span {
   align-items: center;
 
   background-color: #ffffff;
-  width: 70px;
-  height: 70px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
 }
 
 .iconPdf > a {
-  font-size: 20px;
+  font-size: 10px;
   text-decoration: none;
   color: #12c868;
   font-weight: 600;
 }
 
 .downloadCat > p {
-  margin-left: 20px;
-  font-size: 22px;
+  margin-left: 10px;
+  font-size: 10px;
   text-decoration: underline dotted #12c868;
 }
 
@@ -172,9 +174,10 @@ span {
 }
 
 .message {
-  width: 400px;
-  height: 120px;
+  width: 200px;
+  height: 60px;
   text-align: center;
+  font-size: 10px;
 }
 
 .messengers {
@@ -183,11 +186,11 @@ span {
 }
 
 .messengers > div {
-  margin: 15px;
+  margin: 7.5px;
 }
 
 .messengers > div > a > img {
-  width: 70px;
+  width: 35px;
 }
 
 .mob-menu {
