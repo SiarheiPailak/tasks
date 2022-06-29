@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Академия кровли</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header>
+        <nav>
+          <ul class="headerNav">
+            <li>
+              <a href="#"><img src="img/homeLogo.svg" alt="" /></a>
+            </li>
+            <li><a href="#">каталог</a></li>
+            <li><a href="#">Преимущества</a></li>
+            <li><a href="#">Примеры работ</a></li>
+            <li><a href="#">монтаж</a></li>
+            <li><a href="#">отзывы</a></li>
+            <li><a href="#">Ответы на вопросы</a></li>
+            <li><a href="#">контакты</a></li>
+          </ul>
+        </nav>
+        <hr />
+        <section class="headerSection">
+
+          <div class="headText">
+            <p>
+              <span>Кровельные и фасадные материалы </span>в Тюмени и области.
+            </p>
+            <p>Профессиональный монтаж с 2010 года.</p>
+          </div>
+
+          <div class="downloadCat">
+            <div class="iconPdf">
+              <a href="#" class="iconPdfTekst">Pdf</a>
+            </div>
+            <p><span>Скачать прайс-каталог</span></p>
+          </div>
+
+          <div class="logo">
+            <img class="logoImg" src="img/logofull.png" alt="" />
+          </div>
+
+          <div class="message">
+            <p>
+              <span class="bull"> &#8226;</span> Отвечаем
+              <strong>онлайн </strong>
+            </p>
+            <div class="messengers">
+              <div>
+                <a href="https://www.whatsapp.com" target="_blank"><img src="img/whatsApp.svg" alt="" /></a>
+              </div>
+              <div>
+                <a href="https://www.viber.com/ru/" target="_blank"><img src="img/viber.svg" alt="" /></a>
+              </div>
+              <div>
+                <a href="https://telegram.org" target="_blank"><img src="img/telegram.svg" alt="" /></a>
+              </div>
+            </div> <!--messengers-->
+          </div> <!--message-->
+
+          <div class="contact">
+            <p class="time">
+              <span class="bullWhite"> &#8226;</span
+              ><strong> Пн-Пт </strong>9:00 - 18:00,<strong> Сб </strong>10:00 -
+              18:00
+            </p>
+            <input type="checkbox" id="forHiddenSection">
+            <p class="tel"><label for="forHiddenSection">8 (800) 222-54-60</label></p>
+            <p class="call"><span>Позвоните мне</span></p>
+            <section class="hiddenSection" id="hiddenSection">
+              <form action="server.php">
+                <label for="forHiddenSection" id="closeTel">&#10006;</label>
+
+                <div><h3>Быстро оставить заявку</h3></div>
+
+                <div>
+                  <p class="textTelCenter">
+                    Введите номер, мы позвоним вам в течение 10 минут в рабочее
+                    время
+                  </p>
+                </div>
+
+                <div>
+                  <p><span>Пн–Пт 9:00 - 18:00, Сб 10:00 - 18:00</span></p>
+                </div>
+
+                <div>
+                  <p class="textTelLeft"><span >Введите номер телефона</span></p>
+                </div>
+
+                <div class="inputTel"><input type="tel" name="inputTel" id="inputTel" placeholder="+7 ( _ _ _) _ _ - _ _ - _ _"></div>
+
+                <div class="buttonCall" onmouseover="toggleStatus()"><button type="submit" id="inputBut" onclick="alertfunc()" ><img src="img/buttonCall.svg" alt=""></button></div>
+
+                <div class="wrapCheckBox">
+
+                  <div class="checkBoxCall">
+                    <input type="checkbox" id="checkCall">
+                    <label class="labelCall" for="checkCall"></label>
+                      <img id=picCheck src="img/check.svg" alt="">  
+                  </div>
+
+                  <div class="TextCheckBoxCall">
+                    <h5>Нажимая кнопку вы соглашаетесь с условиями</h5>
+                    <h5>Политики конфиденциальности</h5>
+                  </div>
+
+                </div> <!--wrapCheckBox-->
+  
+              </form>
+            </section> <!--hiddenSection-->
+          </div> <!--contact-->
+
+          <div class="mob-menu">
+            <button class="buttonMenu"><a href="index_mob2.html" class="material-symbols-outlined">
+              menu
+              </a></button>
+          </div>
+
+          <div class="mob-menu-end">
+            <button class="buttonClose"><a href="index.html" class="material-symbols-outlined">
+              close
+              </a></button>
+          </div>
+
+        </section> <!--headerSection-->
+      </header>
+
+      <main>
+
+        <section class="section-left">
+
+          <div class="wrapper">
+
+            <div class="wrapper-first-div">
+              <p>
+                <strong>Гарантия от 50 лет </strong> на материалы и 5 лет на
+                монтаж
+              </p>              
+              <img class="menu_shadow" src="img/menu_shadow.png" alt="" />
+            </div>
+
+            <div>
+              <p>
+                <strong>Замер, монтажный проект </strong> и еще 4 услуги
+                бесплатно
+              </p>
+              <img class="menu_shadow" src="img/menu_shadow.png" alt="" />
+            </div>
+
+            <div>
+              <p><strong>Сметы точны </strong> до копейки</p>
+              <img class="menu_shadow" src="img/menu_shadow.png" alt="" />
+            </div>
+
+            <div>
+              <p><strong>Поэтапная оплата, </strong> кредит или рассрочка</p>
+              <img class="menu_shadow" src="img/menu_shadow.png" alt="" />
+            </div>
+
+            <div>
+              <p>
+                <strong>Наши крыши в каждом поселке </strong> и дачном
+                сообществе региона
+              </p>
+            </div>
+
+          </div> <!--wrapper-->
+        </section> <!--section-left-->
+
+        <section class="section-center">
+          
+            <div class="section-center-top">
+              <h1>Продажа <strong>кровельных материалов </strong> в Тюмени
+                и Тюменской области
+              </h1>             
+            </div>
+
+            <div class="sectionH2">
+              <h2>
+                <img src="img/circles.svg"/> и монтаж под ключ</h2>
+            </div>
+            
+            <div class="buttons">
+              <div class="button1-1"><a href="#"><img src="img/button1-1.svg" alt=""></a></div>
+              <div class="button1-2"><a href="#"><img src="img/button1-2.svg" alt=""></a></div>
+              <div class="button2-1"><a href="#"><img src="img/button2-1.svg" alt=""></a></div>
+              <div class="button2-2"><a href="#"><img src="img/button2-2.svg" alt=""></a></div>
+            </div>
+
+            <div class="buttons-mob">
+              <div><a href="#"><img src="img/buttonMob-1.svg" alt=""></a></div>
+              <div><a href="#"><img src="img/buttonMob-2.svg" alt=""></a></div>
+            </div>
+
+            <div class="bottom-info">
+              <div class="bottom-hand">
+                <img class="icon-hand" src="img/hand.svg" alt="">
+              </div>
+              <div class="bottom-text">
+                <p><strong>Ответьте на несколько вопросов и получите </strong> сметную
+                стоимость и 3 подарка за экономию нашего времени</p> 
+              </div>           
+            </div> <!--bottom-info-->           
+          </div>
+        </section> <!--section-centr-->
+
+        <input type="checkbox" id="forSectionLeft">       
+        <section class="section-left-mob">
+          <div class="section-left-button">
+            <label for="forSectionLeft"  class="labelSectionLeft"><img id="plusButtonSectionLeft" src="img/but-plus.svg" alt="" /><img id="closeButtonSectionLeft" src="img/but-x.svg" alt="" /></label>
+          </div>
+
+          <div class="wrapper">
+            <div class="wrapper-first-div">
+              <p class="wrapper-first-p">
+                <strong>Гарантия от 50 лет </strong> на материалы и 5 лет на
+                монтаж
+              </p>
+              <h6 class="afterP" id="afterP">
+                Нажмите на плюсик, чтобы увидеть все преимущества работы с нами
+              </h6>
+              <img class="menu_shadow" src="img/menu_shadow_mob.png" alt="" />
+            </div>
+
+            <div>
+              <p>
+                <strong>Замер, монтажный проект </strong> и еще 4 услуги
+                бесплатно
+              </p>
+              <img class="menu_shadow" src="img/menu_shadow.png" alt="" />
+            </div>
+
+            <div>
+              <p><strong>Сметы точны </strong> до копейки</p>
+              <img class="menu_shadow" src="img/menu_shadow.png" alt="" />
+            </div>
+
+            <div>
+              <p><strong>Поэтапная оплата, </strong> кредит или рассрочка</p>
+              <img class="menu_shadow" src="img/menu_shadow.png" alt="" />
+            </div>
+
+            <div>
+              <p>
+                <strong>Наши крыши в каждом поселке </strong> и дачном
+                сообществе региона
+              </p>
+            </div>
+
+          </div> <!--wrapper-->
+        </section> <!--section-left-mob-->
+
+      </main>
+    </div> <!-- page -->
+
+    <script src="https://unpkg.com/imask"></script>
+    <script src="js.js"></script>
+  </body>
+</html>
